@@ -1,0 +1,22 @@
+@echo off
+setlocal enabledelayedexpansion
+
+:: ===== BASE DIRECTORY =====
+set BASE=D:\doc\2026\KULIAH SEKALI SEMINGGU\LAPRAK
+
+:: ===== DESTINATIONS =====
+set DEST1=D:\doc\2026\KULIAH SEKALI SEMINGGU\LAPRAK
+set DEST2=D:\ExternalBackup\Kuliah
+set DEST3=E:\FlashdiskBackup
+
+:: ===== LOOP THROUGH ALL laprak FOLDERS =====
+for /d %%W in ("%BASE%\*") do (
+    if exist "%%W\laprak" (
+        robocopy "%%W\laprak" "%DEST1%" "laporan-*_225314118*" /MAXAGE:7 /XO /R:2 /W:2
+        robocopy "%%W\laprak" "%DEST2%" "laporan-*_225314118*" /MAXAGE:7 /XO /R:2 /W:2
+        robocopy "%%W\laprak" "%DEST3%" "laporan-*_225314118*" /MAXAGE:7 /XO /R:2 /W:2
+    )
+)
+
+endlocal
+exit
