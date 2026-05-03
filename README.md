@@ -5,31 +5,15 @@
 <br/>
 
 ![Modul](https://img.shields.io/badge/Modul%20Selesai-6%20Laporan-e94560?style=for-the-badge&logo=bookstack&logoColor=white)
-![Exercise](https://img.shields.io/badge/Exercise-15%20Selesai-0f3460?style=for-the-badge&logo=checkmarx&logoColor=white)
+![Exercise](https://img.shields.io/badge/Exercise-15%20Selesai-0f3460?style=for-the-badge&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-1a6b3c?style=for-the-badge&logo=statuspage&logoColor=white)
 ![Tahun](https://img.shields.io/badge/Tahun-2026-orange?style=for-the-badge&logo=calendar&logoColor=white)
 
 <br/>
 
-> **Repositori dokumentasi laporan praktikum mata kuliah Analisis Proses Bisnis**  
+> ** Repositori dokumentasi laporan praktikum mata kuliah Analisis Proses Bisnis**  
 
 </div>
-
----
-
-<div align="center">
-
-| Info | Detail |
-|------|--------|
-| **Mata Kuliah** | Analisis Proses Bisnis |
-| **Prodi** | Informatika — Fakultas Sains dan Teknologi |
-| **Universitas** | Universitas Sanata Dharma, Yogyakarta |
-| **Dosen** | Agnes Maria Polina, S.Kom., M.Sc. |
-| **Tahun** | 2026 |
-
-</div>
-
----
 
 ##  Daftar Laporan Praktikum
 
