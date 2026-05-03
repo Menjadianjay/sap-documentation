@@ -11,34 +11,30 @@
 
 <br/>
 
-> **📚 Repositori dokumentasi laporan praktikum mata kuliah Analisis Proses Bisnis**  
+> **Repositori dokumentasi laporan praktikum mata kuliah Analisis Proses Bisnis**  
 > *Implementasi praktikum menggunakan sistem SAP ERP — Universitas Sanata Dharma Yogyakarta*
 
 </div>
 
 ---
 
-## 👤 Identitas Mahasiswa
-
 <div align="center">
 
 | Info | Detail |
 |------|--------|
-| 👤 **Nama** | Joseph Seri Aprillio De Ornay |
-| 🎓 **NIM** | `225314118` |
-| 📚 **Mata Kuliah** | Analisis Proses Bisnis |
-| 🏫 **Prodi** | Informatika — Fakultas Sains dan Teknologi |
-| 🏛️ **Universitas** | Universitas Sanata Dharma, Yogyakarta |
-| 👩‍🏫 **Dosen** | Agnes Maria Polina, S.Kom., M.Sc. |
-| 📅 **Tahun** | 2026 |
+| **Mata Kuliah** | Analisis Proses Bisnis |
+| **Prodi** | Informatika — Fakultas Sains dan Teknologi |
+| **Universitas** | Universitas Sanata Dharma, Yogyakarta |
+| **Dosen** | Agnes Maria Polina, S.Kom., M.Sc. |
+| **Tahun** | 2026 |
 
 </div>
 
 ---
 
-## 📋 Daftar Laporan Praktikum
+##  Daftar Laporan Praktikum
 
-### 📗 Modul 1 — Login, Navigation & Master Data
+### Modul 1 — Login, Navigation & Master Data
 
 > **Folder:** `1/`
 
@@ -52,7 +48,7 @@
 
 ---
 
-### 📘 Modul 2 — Procurement / Purchasing (MM)
+### Modul 2 — Procurement / Purchasing (MM)
 
 > **Folder:** `2/`
 
@@ -64,7 +60,7 @@
 
 ---
 
-### 📙 Modul 3 — Sales & Distribution (SD)
+### Modul 3 — Sales & Distribution (SD)
 
 > **Folder:** `3/`
 
@@ -76,7 +72,7 @@
 
 ---
 
-### 📙 Modul 4 — Production Planning (PP)
+### Modul 4 — Production Planning (PP)
 
 > **Folder:** `4/LAPRAK/`
 
@@ -88,7 +84,7 @@
 
 ---
 
-### 📕 Modul 5 — Financial Accounting (FI)
+### Modul 5 — Financial Accounting (FI)
 
 > **Folder:** `5/`
 
@@ -100,7 +96,7 @@
 
 ---
 
-### 📒 Modul 6 — Controlling (CO)
+### Modul 6 — Controlling (CO)
 
 > **Folder:** `6/`
 
@@ -111,7 +107,7 @@
 
 ---
 
-### 🚧 Modul Lanjutan
+### Modul Lanjutan
 
 > Folder `7/` — `16/` & `PROJECT-GENAP/`
 
@@ -122,7 +118,7 @@
 
 ---
 
-## 📁 Struktur Repositori
+## Struktur Repositori
 
 ```
 📦 sap-documentation/
@@ -137,14 +133,14 @@
 ├── 📂 7/ – 📂 16/
 │   └── 📂 LAPRAK/               # Modul lanjutan (akan diperbarui)
 │
-├── 📂 PROJECT-GENAP/            # 🏆 Proyek Akhir Semester Genap
+├── 📂 PROJECT-GENAP/            # Proyek Akhir Semester Genap
 ├── 📄 TEMPLATE.docx             # Template laporan resmi
 └── 🔧 SCHEDULE_COPY.bat.txt     # Script backup otomatis (Windows)
 ```
 
 ---
 
-## 🔧 Script Backup Otomatis
+## Script Backup Otomatis
 
 File `SCHEDULE_COPY.bat.txt` adalah Windows Batch script untuk backup laporan ke tiga destinasi sekaligus menggunakan `robocopy`.
 
@@ -162,28 +158,6 @@ rename SCHEDULE_COPY.bat.txt SCHEDULE_COPY.bat
 ./SCHEDULE_COPY.bat
 ```
 
-> 💡 Tambahkan ke **Windows Task Scheduler** agar backup berjalan otomatis setiap hari.
-
----
-
-## 📊 Progress
-
-<div align="center">
-
-```
-Modul 1   ████████████████████  ✅ Selesai
-Modul 2   ████████████████████  ✅ Selesai
-Modul 3   ████████████████████  ✅ Selesai
-Modul 4   ████████████████████  ✅ Selesai
-Modul 5   ████████████████████  ✅ Selesai
-Modul 6   ████████████████████  ✅ Selesai
-Modul 7+  ░░░░░░░░░░░░░░░░░░░░  🔄 Dalam pengerjaan
-Project   ░░░░░░░░░░░░░░░░░░░░  🔄 Dalam pengerjaan
-```
-
-</div>
-
----
 
 <div align="center">
 
