@@ -12,7 +12,6 @@
 <br/>
 
 > **Repositori dokumentasi laporan praktikum mata kuliah Analisis Proses Bisnis**  
-> *Implementasi praktikum menggunakan sistem SAP ERP — Universitas Sanata Dharma Yogyakarta*
 
 </div>
 
