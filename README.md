@@ -1,20 +1,18 @@
 <div align="center">
 
-<!-- HEADER BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=200&section=header&text=SAP%20Documentation&fontSize=52&fontColor=e94560&fontAlignY=38&desc=Struktur%20dan%20Algoritma%20Pemrograman&descAlignY=58&descSize=18&descFontColor=a8b2d8" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=200&section=header&text=SAP%20Documentation&fontSize=52&fontColor=e94560&fontAlignY=38&desc=Analisis%20Proses%20Bisnis%20%7C%20Universitas%20Sanata%20Dharma&descAlignY=58&descSize=16&descFontColor=a8b2d8" width="100%"/>
 
 <br/>
 
-<!-- BADGES -->
-![Pertemuan](https://img.shields.io/badge/Pertemuan-16%20Sesi-e94560?style=for-the-badge&logo=bookstack&logoColor=white)
-![Laprak](https://img.shields.io/badge/Laporan%20Praktikum-Lengkap-0f3460?style=for-the-badge&logo=readthedocs&logoColor=white)
+![Modul](https://img.shields.io/badge/Modul%20Selesai-6%20Laporan-e94560?style=for-the-badge&logo=bookstack&logoColor=white)
+![Exercise](https://img.shields.io/badge/Exercise-15%20Selesai-0f3460?style=for-the-badge&logo=checkmarx&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-1a6b3c?style=for-the-badge&logo=statuspage&logoColor=white)
-![Bahasa](https://img.shields.io/badge/Bahasa-Indonesia-red?style=for-the-badge&logo=googletranslate&logoColor=white)
+![Tahun](https://img.shields.io/badge/Tahun-2026-orange?style=for-the-badge&logo=calendar&logoColor=white)
 
 <br/>
 
-> **📚 Repositori dokumentasi lengkap laporan praktikum mata kuliah SAP**  
-> *Berisi seluruh materi, laporan praktikum, dan proyek akhir semester genap*
+> **📚 Repositori dokumentasi laporan praktikum mata kuliah Analisis Proses Bisnis**  
+> *Implementasi praktikum menggunakan sistem SAP ERP — Universitas Sanata Dharma Yogyakarta*
 
 </div>
 
@@ -26,12 +24,101 @@
 
 | Info | Detail |
 |------|--------|
+| 👤 **Nama** | Joseph Seri Aprillio De Ornay |
 | 🎓 **NIM** | `225314118` |
-| 📚 **Mata Kuliah** | Struktur dan Algoritma Pemrograman (SAP) |
-| 📅 **Semester** | Genap |
-| 🏫 **Program Studi** | Teknik Informatika |
+| 📚 **Mata Kuliah** | Analisis Proses Bisnis |
+| 🏫 **Prodi** | Informatika — Fakultas Sains dan Teknologi |
+| 🏛️ **Universitas** | Universitas Sanata Dharma, Yogyakarta |
+| 👩‍🏫 **Dosen** | Agnes Maria Polina, S.Kom., M.Sc. |
+| 📅 **Tahun** | 2026 |
 
 </div>
+
+---
+
+## 📋 Daftar Laporan Praktikum
+
+### 📗 Modul 1 — Login, Navigation & Master Data
+
+> **Folder:** `1/`
+
+| # | Topik | Keterangan |
+|---|-------|------------|
+| I | Login & Navigation | Koneksi ke sistem SAP, login, pengecekan status dengan `/nsm04` |
+| II.1 | Display Customer Master | Navigasi menu Logistics → Customer → Display Complete |
+| II.2 | Change Customer Master | Mengubah Shipping Condition menjadi *Immediately* & Delivery Priority |
+| III.1 | Display Material Master | Menampilkan material id `578` (Sunny Sunny), Basic Data, Plant Stock |
+| III.2 | Create Material Master | Membuat material `T-MMC-04` (Printer), konfigurasi MRP, Accounting, Sales |
+
+---
+
+### 📘 Modul 2 — Procurement / Purchasing (MM)
+
+> **Folder:** `2/`
+
+| # | Exercise | Topik |
+|---|----------|-------|
+| 1 | Exercise 4-1 | Membuat Purchase Order untuk stok material |
+| 2 | Exercise 4-2 | Goods Receipt — membuat nota belanja dengan referensi PO |
+| 3 | Exercise 4-3 | Publikasi Invoice (Logistics Invoice Verification) |
+
+---
+
+### 📙 Modul 3 — Sales & Distribution (SD)
+
+> **Folder:** `3/`
+
+| # | Exercise | Topik |
+|---|----------|-------|
+| 1 | Exercise 4-4 | Membuat Standard Sales Order (kode OR) |
+| 2 | Exercise 4-5 | Membuat Outbound Delivery & Post Goods Issue |
+| 3 | Exercise 4-6 | Membuat Billing Document & melihat Document Flow |
+
+---
+
+### 📙 Modul 4 — Production Planning (PP)
+
+> **Folder:** `4/LAPRAK/`
+
+| # | Exercise | Topik |
+|---|----------|-------|
+| 1 | Exercise 4-7 | Menampilkan Material BOM (Bill of Materials) |
+| 2 | Exercise 4-8 | Menampilkan Stock/Requirements List |
+| 3 | Exercise 4-9 | Membuat & memverifikasi Production Order (Final Confirmation) |
+
+---
+
+### 📕 Modul 5 — Financial Accounting (FI)
+
+> **Folder:** `5/`
+
+| # | Exercise | Topik |
+|---|----------|-------|
+| 1 | Exercise 5-1 | Menampilkan Chart of Accounts (kode INT) — G/L Account `160000` |
+| 2 | Exercise 5-2 | Display Vendor Line Items & Post Outgoing Payment |
+| 3 | Exercise 5-3 | Display Customer Line Items & Post Incoming Payment |
+
+---
+
+### 📒 Modul 6 — Controlling (CO)
+
+> **Folder:** `6/`
+
+| # | Exercise | Topik |
+|---|----------|-------|
+| 1 | Exercise 5-4 | Membuat Cost Center (`SAP01-C04`, Hierarchy H9500) |
+| 2 | Exercise 5-5 | Memproses Vendor Invoice & melihat laporan Cost Center Actual/Plan/Variance |
+
+---
+
+### 🚧 Modul Lanjutan
+
+> Folder `7/` — `16/` & `PROJECT-GENAP/`
+
+| Folder | Status |
+|--------|--------|
+| `7/` – `16/LAPRAK` | 🔄 *Akan diperbarui* |
+| `PROJECT-GENAP/` | 🔄 *Dalam pengerjaan* |
 
 ---
 
@@ -40,174 +127,71 @@
 ```
 📦 sap-documentation/
 │
-├── 📂 1/                      # Pertemuan 1
-├── 📂 2/                      # Pertemuan 2
-├── 📂 3/                      # Pertemuan 3
+├── 📂 1/                        # Modul 1 — Login & Master Data
+├── 📂 2/                        # Modul 2 — Purchasing (MM)
+├── 📂 3/                        # Modul 3 — Sales & Distribution (SD)
 ├── 📂 4/
-│   └── 📂 LAPRAK/             # Laporan Praktikum Pertemuan 4
-├── 📂 5/                      # Pertemuan 5
-├── 📂 6/                      # Pertemuan 6
-├── 📂 7/                      # Pertemuan 7
-├── 📂 8/
-│   └── 📂 LAPRAK/             # Laporan Praktikum Pertemuan 8
-├── 📂 9/
-│   └── 📂 LAPRAK/             # Laporan Praktikum Pertemuan 9
-├── 📂 10/
-│   └── 📂 LAPRAK/             # Laporan Praktikum Pertemuan 10
-├── 📂 11/
-│   └── 📂 LAPRAK/             # Laporan Praktikum Pertemuan 11
-├── 📂 12/
-│   └── 📂 LAPRAK/             # Laporan Praktikum Pertemuan 12
-├── 📂 13/
-│   └── 📂 LAPRAK/             # Laporan Praktikum Pertemuan 13
-├── 📂 14/
-│   └── 📂 LAPRAK/             # Laporan Praktikum Pertemuan 14
-├── 📂 15/
-│   └── 📂 LAPRAK/             # Laporan Praktikum Pertemuan 15
-├── 📂 16/
-│   └── 📂 LAPRAK/             # Laporan Praktikum Pertemuan 16
+│   └── 📂 LAPRAK/               # Modul 4 — Production Planning (PP)
+├── 📂 5/                        # Modul 5 — Financial Accounting (FI)
+├── 📂 6/                        # Modul 6 — Controlling (CO)
+├── 📂 7/ – 📂 16/
+│   └── 📂 LAPRAK/               # Modul lanjutan (akan diperbarui)
 │
-├── 📂 PROJECT-GENAP/          # 🏆 Proyek Akhir Semester Genap
-│
-├── 📄 TEMPLATE.docx           # Template Laporan Resmi
-└── 🔧 SCHEDULE_COPY.bat.txt   # Script Backup Otomatis
+├── 📂 PROJECT-GENAP/            # 🏆 Proyek Akhir Semester Genap
+├── 📄 TEMPLATE.docx             # Template laporan resmi
+└── 🔧 SCHEDULE_COPY.bat.txt     # Script backup otomatis (Windows)
 ```
-
----
-
-## 📋 Daftar Pertemuan
-
-<div align="center">
-
-| No | Pertemuan | Materi | Laprak |
-|----|-----------|--------|--------|
-| 01 | Pertemuan 1  | Pengenalan & Dasar Algoritma | -  |
-| 02 | Pertemuan 2  | Tipe Data & Variabel | - |
-| 03 | Pertemuan 3  | Percabangan & Perulangan | - |
-| 04 | Pertemuan 4  | Array & String | ✅ |
-| 05 | Pertemuan 5  | Fungsi & Prosedur | - |
-| 06 | Pertemuan 6  | Pointer & Referensi | - |
-| 07 | Pertemuan 7  | Struktur Data Dasar | - |
-| 08 | Pertemuan 8  | Stack & Queue | ✅ |
-| 09 | Pertemuan 9  | Linked List | ✅ |
-| 10 | Pertemuan 10 | Tree & Binary Tree | ✅ |
-| 11 | Pertemuan 11 | Graph | ✅ |
-| 12 | Pertemuan 12 | Sorting Algorithm | ✅ |
-| 13 | Pertemuan 13 | Searching Algorithm | ✅ |
-| 14 | Pertemuan 14 | Rekursi | ✅ |
-| 15 | Pertemuan 15 | Dynamic Programming | ✅ |
-| 16 | Pertemuan 16 | Review & Studi Kasus | ✅ |
-
-</div>
-
----
-
-## 🏆 Proyek Akhir Semester Genap
-
-Folder `PROJECT-GENAP/` berisi implementasi proyek akhir yang mencakup penerapan berbagai konsep struktur data dan algoritma yang telah dipelajari selama satu semester.
 
 ---
 
 ## 🔧 Script Backup Otomatis
 
-File `SCHEDULE_COPY.bat.txt` adalah script Windows Batch untuk backup otomatis laporan praktikum ke beberapa destinasi sekaligus menggunakan `robocopy`.
-
-**Cara Penggunaan:**
+File `SCHEDULE_COPY.bat.txt` adalah Windows Batch script untuk backup laporan ke tiga destinasi sekaligus menggunakan `robocopy`.
 
 ```bash
-# 1. Rename file terlebih dahulu
+# 1. Rename file
 rename SCHEDULE_COPY.bat.txt SCHEDULE_COPY.bat
 
-# 2. Sesuaikan path direktori di dalam file:
-#    BASE  → Lokasi folder laprak utama
-#    DEST1 → Destinasi backup 1
-#    DEST2 → Destinasi backup 2 (External)
-#    DEST3 → Destinasi backup 3 (Flashdisk)
+# 2. Sesuaikan path di dalam file:
+#    BASE  → Direktori laprak utama
+#    DEST1 → Backup lokal
+#    DEST2 → External drive
+#    DEST3 → Flashdisk
 
-# 3. Jalankan script
+# 3. Jalankan
 ./SCHEDULE_COPY.bat
 ```
 
-> 💡 **Tips:** Tambahkan script ini ke **Windows Task Scheduler** agar backup berjalan otomatis setiap hari!
+> 💡 Tambahkan ke **Windows Task Scheduler** agar backup berjalan otomatis setiap hari.
 
 ---
 
-## 📄 Template Laporan
-
-File `TEMPLATE.docx` adalah template resmi yang digunakan untuk penulisan seluruh laporan praktikum.
-
-**Format yang digunakan meliputi:**
-- Header & identitas mahasiswa
-- Tujuan praktikum
-- Dasar teori
-- Langkah percobaan
-- Hasil & pembahasan
-- Kesimpulan
-
----
-
-## 🚀 Cara Menggunakan Repositori Ini
-
-```bash
-# Clone repositori
-git clone https://github.com/Menjadianjay/sap-documentation.git
-
-# Masuk ke direktori
-cd sap-documentation
-
-# Akses pertemuan tertentu, contoh pertemuan 10
-cd 10/LAPRAK
-```
-
----
-
-## 📌 Konvensi Penamaan File
-
-```
-laporan-[pertemuan]_225314118_[nama].[ext]
-```
-
-Contoh:
-```
-laporan-10_225314118_NamaAnda.pdf
-laporan-10_225314118_NamaAnda.docx
-```
-
----
-
-## 📊 Progress Dokumentasi
+## 📊 Progress
 
 <div align="center">
 
-![Progress](https://img.shields.io/badge/Pertemuan%201--3-Selesai-brightgreen?style=flat-square)
-![Progress](https://img.shields.io/badge/Pertemuan%204--8-Selesai%20%2B%20Laprak-brightgreen?style=flat-square)
-![Progress](https://img.shields.io/badge/Pertemuan%209--16-Selesai%20%2B%20Laprak-brightgreen?style=flat-square)
-![Progress](https://img.shields.io/badge/Project%20Genap-Selesai-brightgreen?style=flat-square)
-
 ```
-Dokumentasi  ████████████████████  100%
-Laprak        ██████████████░░░░░░   75%
-Project       ████████████████████  100%
+Modul 1   ████████████████████  ✅ Selesai
+Modul 2   ████████████████████  ✅ Selesai
+Modul 3   ████████████████████  ✅ Selesai
+Modul 4   ████████████████████  ✅ Selesai
+Modul 5   ████████████████████  ✅ Selesai
+Modul 6   ████████████████████  ✅ Selesai
+Modul 7+  ░░░░░░░░░░░░░░░░░░░░  🔄 Dalam pengerjaan
+Project   ░░░░░░░░░░░░░░░░░░░░  🔄 Dalam pengerjaan
 ```
 
 </div>
 
 ---
-
-## 📬 Kontak
 
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-Menjadianjay-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Menjadianjay)
 
-</div>
-
----
-
-<div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,50:16213e,100:1a1a2e&height=120&section=footer" width="100%"/>
 
-*Dibuat dengan ❤️ untuk keperluan akademik — Semester Genap 2025/2026*
+*Dibuat untuk keperluan akademik — Semester Genap 2025/2026*  
+*Universitas Sanata Dharma Yogyakarta*
 
 </div>
