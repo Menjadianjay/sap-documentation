@@ -111,11 +111,6 @@
 
 > Folder `7/` — `16/` & `PROJECT-GENAP/`
 
-| Folder | Status |
-|--------|--------|
-| `7/` – `16/LAPRAK` | 🔄 *Akan diperbarui* |
-| `PROJECT-GENAP/` | 🔄 *Dalam pengerjaan* |
-
 ---
 
 ## Struktur Repositori
@@ -164,8 +159,5 @@ rename SCHEDULE_COPY.bat.txt SCHEDULE_COPY.bat
 [![GitHub](https://img.shields.io/badge/GitHub-Menjadianjay-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Menjadianjay)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,50:16213e,100:1a1a2e&height=120&section=footer" width="100%"/>
-
-*Dibuat untuk keperluan akademik — Semester Genap 2025/2026*  
-*Universitas Sanata Dharma Yogyakarta*
 
 </div>
